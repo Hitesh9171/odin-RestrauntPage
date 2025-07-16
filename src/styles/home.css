@@ -1,0 +1,97 @@
+html,body {
+    margin: 0%;
+    padding: 0%;
+}
+.content {
+    background-color: #fdf6ee;
+}
+.navbar {
+    display: flex;;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem 2rem;
+    align-items: center;
+    align-content: center;
+    background-color: #fef6f0;
+    border-bottom: 1px solid #e0d6cc;
+}
+.navbar button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #ffffff;
+    border: 1px solid #d6ccc2;
+    border-radius: 999px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    cursor: pointer;
+    transition: all 0.2 ease-in-out;
+}
+.navbar button:hover {
+    background-color: #f4e3d7;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.heading-div{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    padding: 2rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.heading-div h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #2e2e2e;
+}
+.heading-div p {
+    font-size:1.1rem;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    color: #4b4b4b;
+}
+.hours-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff9f3;
+    border-top: 1px solid #e2dcd5;
+    font-family: 'Poppins', sans-serif;
+}
+.hours-div h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+.timings{
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #444;
+}
+.location-div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fefefb;
+    font-family: 'Poppins', sans-serif;
+    border-top: 1px solid #e2dcd5;
+}
+.location-div h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+.location-div p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #4b4b4b;
+}
